@@ -1,0 +1,11 @@
+a=int(input())
+b=int(input())
+c=float(input())
+d=input()
+e=input()
+print(a)
+print(b)
+print("%0.1f"%c)
+'''print(f"{c:0.1f}") 奇奇怪怪的写法'''
+print(d)
+print(e)

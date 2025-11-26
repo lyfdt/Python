@@ -1,0 +1,5 @@
+a=int(input())
+hour=int(a/3600)
+mi=int((a%3600)/60)
+s=int(((a%3600)%60))
+print(f"{hour} {mi} {s}")

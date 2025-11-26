@@ -1,0 +1,5 @@
+a,b,c=map(int,input().split())
+s=int(2*(a*b+a*c+b*c))
+v=int(a*b*c)
+print(f"{s:d}")
+print(f"{v:d}")
